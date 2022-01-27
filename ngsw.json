@@ -1,0 +1,87 @@
+{
+  "configVersion": 1,
+  "timestamp": 1643256322558,
+  "index": "CSF_workshop_01/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "CSF_workshop_01/favicon.ico",
+        "CSF_workshop_01/index.html",
+        "CSF_workshop_01/main.1b340cb100ca6717.js",
+        "CSF_workshop_01/manifest.webmanifest",
+        "CSF_workshop_01/polyfills.428dfd25c547ce1c.js",
+        "CSF_workshop_01/runtime.444307b5012180ee.js",
+        "CSF_workshop_01/styles.a4ff2369078b4797.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "CSF_workshop_01/assets/HAB-timelapse.mp4",
+        "CSF_workshop_01/assets/icons/icon-128x128.png",
+        "CSF_workshop_01/assets/icons/icon-144x144.png",
+        "CSF_workshop_01/assets/icons/icon-152x152.png",
+        "CSF_workshop_01/assets/icons/icon-192x192.png",
+        "CSF_workshop_01/assets/icons/icon-384x384.png",
+        "CSF_workshop_01/assets/icons/icon-512x512.png",
+        "CSF_workshop_01/assets/icons/icon-72x72.png",
+        "CSF_workshop_01/assets/icons/icon-96x96.png",
+        "CSF_workshop_01/assets/ride.JPG",
+        "CSF_workshop_01/assets/turkey.jpg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "CSF_workshop_01/assets/HAB-timelapse.mp4": "c7385aeb3acd52c1be95f75f6c9d540406ecd475",
+    "CSF_workshop_01/assets/icons/icon-128x128.png": "b73e922649a443ee2d6c3e43fb2fd6f425a09ede",
+    "CSF_workshop_01/assets/icons/icon-144x144.png": "f8dd5098bc76c08381a03fb8162d8165616bbbf8",
+    "CSF_workshop_01/assets/icons/icon-152x152.png": "3f3f31144eeec43a868a25e57851e470f96aeca2",
+    "CSF_workshop_01/assets/icons/icon-192x192.png": "0243f4660959838a8eb91e62ce470e3a6b811587",
+    "CSF_workshop_01/assets/icons/icon-384x384.png": "102004b19e5030c08f7a5071fed56b7e16b337e4",
+    "CSF_workshop_01/assets/icons/icon-512x512.png": "23e83023109a22290aec06fdf0f83218d33efcd8",
+    "CSF_workshop_01/assets/icons/icon-72x72.png": "788e22ae5f2fbe3c6d9e26cd0e45acc76cda39ee",
+    "CSF_workshop_01/assets/icons/icon-96x96.png": "9364a850272e114dffd520c954289dedac44ee06",
+    "CSF_workshop_01/assets/ride.JPG": "cf6b79bcab4be1a970ea9d37a6052efa96695264",
+    "CSF_workshop_01/assets/turkey.jpg": "4eeefefaee91ca14db197623a66d96d27b0c1fb7",
+    "CSF_workshop_01/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "CSF_workshop_01/index.html": "86af3aad1a33239a446ee2416372e199085fa604",
+    "CSF_workshop_01/main.1b340cb100ca6717.js": "1bd8136b4c86dc8826b0e46701312867561542da",
+    "CSF_workshop_01/manifest.webmanifest": "ca69415ed15c866c853be76db40ce8a3511025b9",
+    "CSF_workshop_01/polyfills.428dfd25c547ce1c.js": "e3e4b3211aa9cf8424799f23b522f9f8f32ead15",
+    "CSF_workshop_01/runtime.444307b5012180ee.js": "ac4915bf9a6322e2596f7c2bf42a3179c58acc8c",
+    "CSF_workshop_01/styles.a4ff2369078b4797.css": "770afeb0a1e7a5a6b4f010f211481422fe546a70"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
